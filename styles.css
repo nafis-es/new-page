@@ -2,20 +2,40 @@
 	font-size: 50px;
 	text-align: center;
 	color: white;
-	font-family: 'Poppins', sans-sarif;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	font-family: 'Poppins', sans-serif;
 	
 }
 .line1 {
 	font-size: 25px;
 	text-align: center;
-	color: black;
-	
+	color: white;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	background: rgba(255, 255, 255, 0.15);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px 25px;
+	border-radius: 16px;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(15px);
+	transition: transform 0.5s ease, box-shadow 0.5s ease;
+	animation: fadeBounce 2s ease-in-out infinite alternate;
+	backface-visibility: hidden;
+}
+.line1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+@keyframes fadeBounce {
+    0% { opacity: 0; transform: translateY(0); }
+    50% { opacity: 1; transform: translateY(-10px); }
+    100% { opacity: 0; transform: translateY(0); }
 }
 body {
     background-image: url('background.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 
 
