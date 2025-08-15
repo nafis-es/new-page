@@ -1,5 +1,4 @@
-<style>
-* {
+P {
 	font-size: 10;
 	text-align: center;
 	color: red;
@@ -7,4 +6,3 @@
 body {
   background-image: url('background.png');
 }
-</style>
