@@ -18,7 +18,7 @@
 	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 	backdrop-filter: blur(15px);
 	transition: transform 0.5s ease, box-shadow 0.5s ease;
-	animation: fadeBounce 2s ease-in-out infinite alternate;
+	animation: fadeBounce 2s ease-in-out forwards;
 	backface-visibility: hidden;
 }
 .line1:hover {
@@ -35,6 +35,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 
 
