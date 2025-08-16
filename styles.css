@@ -36,11 +36,11 @@ body::before {
     left: 50%;
     width: 2048px;
     height: 2048px;
-    background-image: url('background.png');
+    background-image: url('dark_background.png');
     background-size: cover;
     background-repeat: no-repeat;
     transform: translate(-50%, -50%);
-    animation: spinBG 60s linear infinite;
+    animation: spinBG 90s linear infinite;
     z-index: -1;
 }
 @keyframes spinBG {
@@ -48,6 +48,7 @@ body::before {
     to   { transform: translate(-50%, -50%) rotate(360deg); }
 }
 /*=========================================================*/
+
 
 
 
