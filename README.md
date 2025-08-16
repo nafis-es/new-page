@@ -1,2 +1,2 @@
-# new-page
-building a website from no experience
+# NewPage
+A project by Nafis.
