@@ -2,7 +2,7 @@
 .title {
 	font-size: 90px;
 	text-align: center;
-	color: rgb(255, 160, 190);
+	color: rgb(150, 190, 255);
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 	font-family: 'Poppins', sans-serif;
 }
@@ -48,6 +48,7 @@ body::before {
     to   { transform: translate(-50%, -50%) rotate(360deg); }
 }
 /*=========================================================*/
+
 
 
 
