@@ -21,11 +21,14 @@
 	margin: 10px;
 	border: 2px solid rgba(0, 0, 0, 0.3);	
 	border-radius: 25px;
+	backdrop-filter: blur(25px);
 	-webkit-backdrop-filter: blur(25px);
+	backdrop-filter: ;
+	-webkit-backdrop-filter: ;
 	box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
 	display: flex;
 	justify-content: center;
-	padding: 10px 25px;
+	padding: 20px;
 	backface-visibility: hidden;
 }
 
@@ -49,15 +52,3 @@ body::before {
     to   { transform: translate(-50%, -50%) rotate(360deg); }
 }
 /*=========================================================*/
-
-
-
-
-
-
-
-
-
-
-
-
