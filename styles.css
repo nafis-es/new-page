@@ -28,15 +28,18 @@
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 .glass-container {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+	border: 2px;
+	border-radius: 25px;
+	background-color: white;
 }
 .line2 {
-font-size: 70px;
-color: teal;
-font-family: 'Roboto', sans-serif;
+	font-size: 70px;
+	color: teal;
+	font-family: 'Roboto', sans-serif;
 }
 /*=========================================================*/
 body::before {
@@ -50,7 +53,6 @@ body::before {
     background-size: cover;
     background-repeat: no-repeat;
     transform: translate(-50%, -50%);
-	blur: 100px;
     animation: spinBG 90s linear infinite;
     z-index: -1;
 }
@@ -59,4 +61,5 @@ body::before {
     to   { transform: translate(-50%, -50%) rotate(360deg); }
 }
 /*=========================================================*/
+
 
