@@ -29,7 +29,7 @@
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 .glass_container {
-display: flexbox;
+display: flex;
 align: center;
 }
 .line2 {
