@@ -28,6 +28,15 @@
     transform: translateY(-10px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
+.glass_container {
+display: flexbox;
+align: center;
+}
+.line2 {
+font-size: 20px;
+color: teal;
+font-family: 'Roboto', sans-serif;
+}
 /*=========================================================*/
 body::before {
     content: "";
