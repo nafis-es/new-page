@@ -15,8 +15,9 @@
 }
 #home {
 	background: rgba(200, 200, 200, 0.5);
-	height: 100px;
-	width:100px;
+	height: 100%;
+	width: 90%;
+	margin: 10px;
 	border: 2px solid rgba(255, 255, 255, 0.3);	
 	border-radius: 25px;
 	backdrop-filter: blur(50px);
@@ -48,6 +49,7 @@ body::before {
     to   { transform: translate(-50%, -50%) rotate(360deg); }
 }
 /*=========================================================*/
+
 
 
 
