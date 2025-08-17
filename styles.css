@@ -28,7 +28,7 @@
     transform: translateY(-10px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
-.glass_container {
+.glass-container {
 display: flex;
 align: center;
 }
