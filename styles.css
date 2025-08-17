@@ -16,21 +16,21 @@
 }
 #home {
 	background: rgba(0, 0, 0, 0.5);
-	min-height: 100vh;
-	width: 90%;
-	margin: 10px;
 	border: 2px solid rgba(0, 0, 0, 0.3);	
 	border-radius: 25px;
 	backdrop-filter: blur(25px);
 	-webkit-backdrop-filter: blur(25px);
-	backdrop-filter: ;
-	-webkit-backdrop-filter: ;
 	box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+	min-height: 90vh;
+	width: 90vw;
+	margin: 5vh auto;
 	display: flex;
-    justify-content: center;
+	justify-content: center;
     align-items: center;
-    text-align: center; 
-	backface-visibility: hidden;
+    text-align: center;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 /*========================BACKGROUND=======================*/
@@ -53,4 +53,3 @@ body::before {
     to   { transform: translate(-50%, -50%) rotate(360deg); }
 }
 /*=========================================================*/
-
