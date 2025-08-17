@@ -12,9 +12,7 @@
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-weigh: 256;
-	display:
 	padding-left: 8px;
-	
 }
 #home {
 	background: rgba(0, 0, 0, 0.5);
@@ -51,6 +49,7 @@ body::before {
     to   { transform: translate(-50%, -50%) rotate(360deg); }
 }
 /*=========================================================*/
+
 
 
 
