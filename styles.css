@@ -12,6 +12,9 @@
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-weigh: 256;
+	display:
+	padding-left: 8px;
+	
 }
 #home {
 	background: rgba(0, 0, 0, 0.5);
@@ -20,7 +23,7 @@
 	margin: 10px;
 	border: 2px solid rgba(0, 0, 0, 0.3);	
 	border-radius: 25px;
-	backdrop-filter: blur(50px);
+	-webkit-backdrop-filter: blur(25px);
 	box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
 	display: flex;
 	justify-content: center;
@@ -48,6 +51,7 @@ body::before {
     to   { transform: translate(-50%, -50%) rotate(360deg); }
 }
 /*=========================================================*/
+
 
 
 
